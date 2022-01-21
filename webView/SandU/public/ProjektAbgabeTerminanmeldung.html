@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Terminanmeldung</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    </head>
+    <body>
+
+       
+        <main>
+          <h1>Arztpraxis S & U  <img width="100" src="LogoBild1" alt="Logo"/> Gesund im nu! </h1>
+          
+            
+
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="ProjektAbgabeDienstleistungen.html">Dienstleistungen</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="ProjektAbgabeKontaktdaten.html">Kontaktdaten</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="ProjektAbgabeTerminanmeldung.html">Terminanmeldung</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="ProjektAbgabeImpressum.html">Impressum</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="ProjektAbgabeÜberUns.html">Über Uns</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Fragen.html">Fragen</a>
+                  </li>
+                  </ul>
+                </div>
+              </nav>
+
+              
+          <div class="terminanmeldung">
+                <h2>Terminanmeldung:</h2>
+            <form class="form">
+
+                <label for="vname">Vorname:</label> <br>
+                <input type="text" id="vname" name="vname" value=""> <br>
+                <label for="nname">Nachname:</label> <br>
+                <input type="text" id="nname" name="nname" value=""> <br>
+                <label for="e-Mail">Email Adresse:</label> <br>
+                <input type="text" id="e-Mail" name="Email-Adresse" value=""> <br>
+
+                <label for="versichertenr">Versichertennummer:</label> <br> 
+                <input type="text" id="versichertenr" name="Versichertennummer" value=""> <br>
+
+                
+                <div class="terminanmeldung1">
+                  
+                 </div>
+
+              <div class="terminanmeldung2">
+                <label for="telefonnr">Telefonnummer:</label> <br>
+                <input type="text" id="telefonnr" name="Telefonnummer" value=""> <br>
+
+
+                <label for="Beschwerde">Beschwerde:</label> <br>
+                <input type="text" id="Beschwerde" name="Beschwerde" value=""> <br>
+                <label for="nachricht">Nachricht:</label> <br>
+                <textarea id="nachricht" name="Nachricht" rows="5" cols="50"></textarea> <br>
+                 
+              </div>
+            </form>
+          
+            
+          </div>
+
+         
+               
+             
+    
+              <div class="form-group border-none has-error">
+                <label class="required form-label control-label col-xs-4 for-summary" for="reservation_time"> Bitte wählen Sie eine Uhrzeit aus:</label>
+                <div class="col-xs-8">
+                <select class="required-control form-control input-sm" name="reservation[time]" id="reservation_time" tabindex="-1">
+                  <option value="">Bitte wählen</option>
+                  <option value="08:00">08:00</option><option value="08:15">08:15</option><option value="08:30">08:30</option>
+                  <option value="08:45">08:45</option><option value="09:00">09:00</option><option value="09:15">09:15</option><option value="09:30">09:30</option><option value="09:45">09:45</option><option value="10:00">10:00</option><option value="10:15">10:15</option><option value="10:30">10:30</option>
+                  <option value="10:45">10:45</option><option value="11:00">11:00</option><option value="11:15">11:15</option><option value="11:30">11:30</option><option value="11:45">11:45</option><optgroup label="———"></optgroup><option value="13:00">13:00</option><option value="13:15">13:15</option>
+                  <option value="13:30">13:30</option><option value="13:45">13:45</option><option value="14:00">14:00</option><option value="14:15">14:15</option><option value="14:30">14:30</option><option value="14:45">14:45</option>
+                  <option value="15:00">15:00</option><option value="15:15">15:15</option>
+                  <option value="15:30">15:30</option><option value="15:45">15:45</option>
+                </select>
+                </div>
+                </div>
+              
+                <div class="form-group border-none has-error">
+                  <label class="required form-label control-label col-xs-4 for-summary" for="reservation_time"> Bitte wählen Sie einen Tag aus:</label>
+                  <div class="col-xs-8">
+                  <select class="required-control form-control input-sm" name="reservation[time]" tabindex="-1">
+                    <option value="">Bitte wählen</option>
+                    <option value="Montag">Montag</option>
+                    <option value="Dienstag">Dienstag</option>
+                    <option value="Mittwoch">Mittwoch</option>
+                    <option value="Donnerstag">Donnerstag</option>
+                    <option value="Freitag">Freitag</option>
+                  </select>
+                  </div>
+                </div>
+
+                <div class="terminanmeldung" >
+                <input type="submit" value="Submit"> <hr>
+              </div>
+        </main>
+
+        
+        <div class="footer">
+          <footer>
+            <p >
+              Öffnungszeiten: Mo-Fr 08:00-12:00 und 13:00-16:00
+          </p>
+          </footer>
+        </div>
+    </body>
+</html>

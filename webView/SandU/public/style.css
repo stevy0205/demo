@@ -1,0 +1,107 @@
+.personas{
+    padding: 50px;
+    font-family: "sans-serif Arial";font-size: 20px;
+}
+
+.unserteam{
+    padding: 50px;
+    font-family: "sans-serif Arial";font-size: 20px;
+}
+
+.navbar{
+    padding:20px;
+    font-family: "sans-serif Arial";font-size: 20px;
+    text-align: center;
+}
+
+.terminanmeldung{
+    padding: 20px;
+    font-family: "sans-serif Arial";
+    font-size: 20px;
+    
+}
+.terminanmeldung1{
+    color: rgb(43, 92, 121);
+    text-align: center;
+    position: relative;
+    top: -200px;
+    right: -400px;
+}
+
+
+
+.überuns{
+    padding: 20px;
+    font-family: "sans-serif Arial";font-size: 20px;
+}
+
+.dienstleistungen{
+    padding: 25px;
+    font-family: "sans-serif Arial";font-size: 20px;
+}
+
+.kontaktformular{
+    padding: 20px;
+    font-family: "sans-serif Arial";font-size: 20px;
+}
+
+.impressum{
+    padding: 20px;
+    font-family: "sans-serif Arial";font-size: 20px;
+}
+
+.footer{
+    padding: 20px;
+    font-family: "sans-serif Arial";
+    font-size: 15px;
+    
+
+}
+
+
+body {
+    background-color: rgb(83, 172, 207);
+}
+
+h1{
+    color: rgb(43, 92, 121);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 40px;
+    text-align: center;
+}
+
+h2{
+    color: rgb(43, 92, 121);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 40px;
+}
+
+h3{
+    padding:20px;
+}
+
+
+
+
+
+.border-none {
+  padding:20px;
+  
+}
+
+
+
+.petra{
+ position:absolute;
+ right:300px;
+ top: 300px;
+ font-size: 20pt;
+}
+
+.btn-primary{
+    position: relative;
+    left:20px;
+
+}
+
+
+
+
